@@ -34,10 +34,20 @@ To get a local copy up and running, please follow these simple steps.
       
          https://github.com/shindeamul76/furation-backend.git
 
-   2  Go to the project folder
+   2 Go to the project folder
         
          cd furation-backend
 
-   3   Install packages with npm
+   3 Install packages with npm
 
         npm install 
+
+   4 Set up your .env file
+
+     _ Duplicate .env.example to .env
+     _ Use MONGO_URL as your mongo db url
+    
+
+### Quick start with npm start
+   
+    npm start
