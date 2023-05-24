@@ -55,16 +55,27 @@ To get a local copy up and running, please follow these simple steps.
 
 ## For testing the API's 
 
-1.  Creating a item with all fields are required POST API
-     http://localhost:4000/api/items
-2   Updating a item with params id  PUT API
-     http://localhost:4000/api/items/id
-3   Deleting a item with params id  DELETE API
-     http://localhost:4000/api/items/id
-4   Getting a item with params id  GET API
-     http://localhost:4000/api/items/id
+1  Creating a item with all fields are required POST API
+  
+    http://localhost:4000/api/items
+
+2  Updating a item with params id  PUT API
+   
+    http://localhost:4000/api/items/id
+
+3  Deleting a item with params id  DELETE API
+
+    http://localhost:4000/api/items/id
+
+4  Getting a item with params id  GET API
+
+    http://localhost:4000/api/items/id
+
 5   Getting all items with GET API
-     http://localhost:4000/api/items
+
+    http://localhost:4000/api/items
+
 6   Getting all items with Pagination on GET API
-     http://localhost:4000/api/items?page=1&limit=5
+
+    http://localhost:4000/api/items?page=1&limit=5
       
